@@ -1,0 +1,2 @@
+# BatchTextureCompressionSetter
+ 
