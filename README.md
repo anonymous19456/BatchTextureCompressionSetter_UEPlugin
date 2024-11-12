@@ -1,5 +1,5 @@
 # BatchTextureCompressionSetter
-# Info
+## Info
 
 - Unreal v5.3.2
 - Dependencies:
@@ -7,7 +7,7 @@
     - Editor Scripting Utilities
 - Unreal Engine plugin that allows you to change the Compression Setting for multiple textures at the same time. 
 
-# Installation and Set Up
+## Installation and Set Up
 
 To install the plugin:
 
@@ -31,7 +31,7 @@ Enabling Dependencies:
 2. Restart the editor.
     
 
-# Using the Tool
+## Using the Tool
 
 1. Navigate to “Custom Python Tools > Batch Texture Compression Setter” at the top of the main window.  The tool’s window should open up when you click it.
     
@@ -44,7 +44,7 @@ Enabling Dependencies:
 3. Press execute to update the textures, this may take awhile depending on how many textures you have and their quality.  I would advise against trying to do anything else until it finishes.  The output log will show this message when finished:
     1. `LogPython: Batch Texture Compression Setter - Batch Texture Compression Setter has run successfully.`
 
-# Additional Notes
+## Additional Notes
 
 - Canceling the tool’s execution doesn’t undo changes it has already made, so be sure to manually undo them after cancelling.
 - The tool automatically saves the affected Textures after updating them, so if you decide to undo the changes made by the tool, be sure to save after undoing before closing Unreal Engine.
